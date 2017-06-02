@@ -1,0 +1,49 @@
+@font-face
+{
+    font-family: 'Casper';
+    font-weight: bold;
+    font-style: normal; 
+
+    src: url('../fonts/subset-Casper-Bold.eot');
+    src: url('../fonts/subset-Casper-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/subset-Casper-Bold.woff') format('woff'), url('../fonts/subset-Casper-Bold.ttf') format('truetype'), url('../fonts/subset-Casper-Bold.svg#Casper-Bold') format('svg');
+}
+
+@font-face
+{
+    font-family: 'Casper';
+    font-weight: bold;
+    font-style: italic; 
+
+    src: url('../fonts/subset-Casper-BoldItalic.eot');
+    src: url('../fonts/subset-Casper-BoldItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/subset-Casper-BoldItalic.woff') format('woff'), url('../fonts/subset-Casper-BoldItalic.ttf') format('truetype'), url('../fonts/subset-Casper-BoldItalic.svg#Casper-BoldItalic') format('svg');
+}
+
+@font-face
+{
+    font-family: 'Casper';
+    font-weight: normal;
+    font-style: normal; 
+
+    src: url('../fonts/subset-Casper.eot');
+    src: url('../fonts/subset-Casper.eot?#iefix') format('embedded-opentype'), url('../fonts/subset-Casper.woff') format('woff'), url('../fonts/subset-Casper.ttf') format('truetype'), url('../fonts/subset-Casper.svg#Casper') format('svg');
+}
+
+@font-face
+{
+    font-family: 'Casper';
+    font-weight: normal;
+    font-style: italic; 
+
+    src: url('../fonts/subset-Casper-Italic.eot');
+    src: url('../fonts/subset-Casper-Italic.eot?#iefix') format('embedded-opentype'), url('../fonts/subset-Casper-Italic.woff') format('woff'), url('../fonts/subset-Casper-Italic.ttf') format('truetype'), url('../fonts/subset-Casper-Italic.svg#Casper-Italic') format('svg');
+}
+
+@font-face
+{
+    font-family: 'Brutal Type';
+    font-weight: 500;
+    font-style: normal; 
+
+    src: url('../fonts/subset-BrutalType-Medium.eot');
+    src: url('../fonts/subset-BrutalType-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/subset-BrutalType-Medium.woff') format('woff'), url('../fonts/subset-BrutalType-Medium.ttf') format('truetype'), url('../fonts/subset-BrutalType-Medium.svg#BrutalType-Medium') format('svg');
+}

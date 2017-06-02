@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <title>Bio</title>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.0/css/swiper.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="css/baguetteBox.min.css">
+    <link rel="stylesheet" href="css/tingle.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/font.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="row middle-md center-md">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+          <div class="logo animated fadeInDown wow"><img src="img/logo.png" alt=""></div>
+        </div>
+        <div class="col-md-4 end-md">
+          <div class="header__contact">
+            <p class="header__contact__phone">т. +7 (8212) 27-01-18</p>
+            <p class="header__contact__phone">+7 (912) 867-01-18</p><a onclick="modalBackCall.open()" class="header__contact__button">Обратный звонок</a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 center-md">
+          <nav class="menu">
+            <ul class="menu__list flex">
+              <li class="menu__list__item"> <a data-scroll href="#activity" class="menu__list__item__link">Виды деятельности</a></li>
+              <li class="menu__list__item"> <a data-scroll href="#company" class="menu__list__item__link">О компании</a></li>
+              <li class="menu__list__item"> <a data-scroll href="#research" class="menu__list__item__link">Исследования</a></li>
+              <li class="menu__list__item"> <a data-scroll href="#development" class="menu__list__item__link">Продукты</a></li>
+              <li class="menu__list__item"> <a data-scroll href="#document" class="menu__list__item__link">Документация</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <section class="offer">
+      <div class="row middle-md">
+        <div class="col-md-4"></div>
+        <div class="col-md-8">
+          <div class="offer__text">
+            <h1 class="offer__text__heading">Исследования, разработка и производство инновационных продуктов для</h1>
+            <ul class="offer__text__list">
+              <li class="offer__text__list__item">- очистки загрязненных сточных вод</li>
+              <li class="offer__text__list__item">- переработки и утилизации различных видов отходов</li>
+              <li class="offer__text__list__item">- устранения разливов нефти и нефтепродуктов</li>
+            </ul><a onclick="modalConsultation.open()" class="button">Получить консультацию</a>
+          </div>
+        </div>
+      </div>
+      <div class="shadow"></div>
+    </section>
+    <section id="activity" class="activity">
+      <div class="activity__first">
+        <div class="row">
+          <div class="col-md-12 center-md height">
+            <h2 class="activity__first__heading animated fadeInDown wow">Виды деятельности</h2>
+          </div>
+          <div class="col-md-12 activity__first__description">
+            <p class="activity__heading2">Прикладные научные исследования в сферах экологии, очистки загрязнений, переработки и утилизации различных видов отходов</p>
+            <div><a data-scroll href="#research" class="button activity__button">Актуальные разработки</a></div>
+          </div>
+        </div>
+      </div>
+      <div class="activity__second">
+        <div class="row middle-md">
+          <div class="col-md-3"></div>
+          <div class="col-md-9 end-md">
+            <p class="activity__heading2">Производство и продвижение<br> инновационной биотехнологической продукции</p>
+            <p class="activity__text">В 2017 г. в Сыктывкаре планируется строительство и запуск экспериментальной технологической линии для производства биотехнологической продукции.</p>
+            <p class="activity__text">Проектная мощность экспериментального производства – 30 тонн продукции в год.</p>
+            <div><a data-scroll href="#development" class="button activity__button">Наши продукты</a></div>
+          </div>
+        </div>
+      </div>
+      <div class="activity__third">
+        <div class="row middle-md">
+          <div class="col-md-11 padding">
+            <p class="activity__heading2">Консультационные услуги в области оценки загрязнений, очистки, переработки и утилизации различных видов отходов</p>
+            <ul class="activity__list">
+              <li class="activity__list__item">- Оценка загрязнений различного характера по химическим, микробиологическим и биохимическим параметрам. </li>
+              <li class="activity__list__item">- Консультации по подбору биологического агента для очистки, переработки и утилизации определенного вида отходов.</li>
+              <li class="activity__list__item">- Выбор или разработка технологии очистки, переработки или утилизации загрязнений на основании первичных исследований.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="consultation">
+      <div class="row middle-md center-md">
+        <div class="col-md-12">
+          <p class="consultation__heading">Получите подробную консультацию</p>
+          <p class="consultation__text">по всем видам деятельности компании «Биоэкобаланс» и интересующим вопросам</p><a onclick="modalConsultation.open()" class="button button--consultation">Получить консультацию</a>
+        </div>
+      </div>
+    </section>
+    <section id="company" class="company">
+      <div class="swiper-container swiper-container__slider">
+        <div class="swiper-wrapper">
+          <div style="background-image: url(img/company/1.jpg); background-position: 50% 20%" class="swiper-slide"></div>
+          <div style="background-image: url(img/company/2.jpg);" class="swiper-slide"></div>
+          <div style="background-image: url(img/company/3.jpg);" class="swiper-slide"></div>
+          <div style="background-image: url(img/company/4.jpg);" class="swiper-slide"></div>
+          <div style="background-image: url(img/company/5.jpg);" class="swiper-slide"></div>
+          <div style="background-image: url(img/company/6.jpg);" class="swiper-slide"></div>
+          <div style="background-image: url(img/company/7.jpg);" class="swiper-slide"></div>
+          <div style="background-image: url(img/company/8.jpg);" class="swiper-slide"></div>
+          <div style="background-image: url(img/company/9.jpg);" class="swiper-slide"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 center-md">
+          <h2 class="company__heading animated fadeInDown wow">О компании</h2>
+        </div>
+      </div>
+      <div class="company__black">
+        <div class="row middle-md">
+          <div class="col-md-12">
+            <p class="company__black__heading2"><span class="company__black__green">«БИОЭКОБАЛАНС»</span> - инновационная биотехнологическая компания, специализирующаяся на разработке и производстве инновационных продуктов для:</p>
+            <ul class="company__black__list">
+              <li class="company__black__list__item">- очистки загрязненных сточных вод</li>
+              <li class="company__black__list__item">- переработки и утилизации различных видов отходов,</li>
+              <li class="company__black__list__item">- устранения аварийных разливов нефти и нефтепродуктов.</li>
+              <p class="company__black__text">Миссия - Очищение и сохранение окружающей среды.</p>
+              <p class="company__black__text">Цель - приобретение передовых знаний для создания инновационных препаратов  и оптимальных условий экологически безопасной жизни людей в окружающей среде</p>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="partners">
+      <div class="row center-md">
+        <div class="col-md-12">
+          <h2 class="partners__heading animated fadeInDown wow">Ключевые партнеры</h2>
+          <div class="swiper-container swiper-container__partners">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"> 
+                <figure class="swiper-slide__block">
+                  <div class="slider__block--image"><img src="img/partner-2.png" alt="" class="slider__img"></div>
+                  <p class="swiper-slide__block__text">Фонд содействия инновациями</p>
+                </figure>
+              </div>
+              <div class="swiper-slide"> 
+                <figure class="swiper-slide__block">
+                  <div class="slider__block--image"><img src="img/partner-5.png" alt="" class="slider__img"></div>
+                  <p class="swiper-slide__block__text">Институт Биологии КНЦ УрО РАН</p>
+                </figure>
+              </div>
+              <div class="swiper-slide"> 
+                <figure class="swiper-slide__block">
+                  <div class="slider__block--image"><img src="img/partner-4.png" alt="" class="slider__img"></div>
+                  <p class="swiper-slide__block__text">Центр "Инновация"</p>
+                </figure>
+              </div>
+              <div class="swiper-slide"> 
+                <figure class="swiper-slide__block">
+                  <div class="slider__block--image"><img src="img/partner-1.png" alt="" class="slider__img"></div>
+                  <p class="swiper-slide__block__text">ИБФМ им. Г.К.Скрябина</p>
+                </figure>
+              </div>
+              <div class="swiper-slide"> 
+                <figure class="swiper-slide__block">
+                  <div class="slider__block--image"><img src="img/partner-3.png" alt="" class="slider__img"></div>
+                  <p class="swiper-slide__block__text">Экоаналитическая лаборатория ИБ Коми НЦ УрО РАН</p>
+                </figure>
+              </div>
+              <div class="swiper-slide"> 
+                <figure class="swiper-slide__block">
+                  <div class="slider__block--image"><img src="img/partner-6.png" alt="" class="slider__img"></div>
+                  <p class="swiper-slide__block__text">Эко Альянс</p>
+                </figure>
+              </div>
+              <div class="swiper-slide"> 
+                <figure class="swiper-slide__block">
+                  <div class="slider__block--image"><img src="img/partner-7.png" alt="" class="slider__img"></div>
+                  <p class="swiper-slide__block__text">Университет ИТМО</p>
+                </figure>
+              </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="research" class="research">
+      <div class="row middle-md">
+        <div class="col-md-12">
+          <h2 class="research__heading animated fadeInDown wow">Научные исследования</h2>
+          <p class="research__text animated fadeInDown wow">которые находятся в разработке</p>
+          <hr class="research__hr">
+          <ul class="research__list">
+            <li class="research__list__item">Разработка технологии очистки сточной воды промышленных предприятий с помощью микроводорослей</li>
+            <li class="research__list__item">Разработка технологии очистки нефтезагрязненной почвы с помощью микробных ассоциаций</li>
+            <li class="research__list__item">Разработка методов оптимизации технологии очистки сточных вод на основе выявленных биоиндикаторов</li>
+            <li class="research__list__item">Разработка комплексного метода биотрансформации нефтяных шламов с применением ассоциаций микробиоты в биомассу липидных метаболитов, используемых в качестве источника биотоплива</li>
+            <li class="research__list__item">Разработка биосорбента на основе отходов лесопромышленного производства (обезвоженного осадка активного ила) и альго-бактериально-дрожжевого комплекса</li>
+            <li class="research__list__item">Разработка биосорбента для очистки грунтов железнодорожного полотна от нефтепродуктов</li>
+            <li class="research__list__item">Разработка технологии очистки загрязненных водных и почвенных объектов различными загрязнителями с использованием базидиомицетов</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="development" class="development">
+      <div class="row center-md">
+        <div class="col-md-12">
+          <h2 class="development__heading animated fadeInDown wow">Инновационные разработки «БИОЭКОБАЛАНС»</h2>
+        </div>
+      </div>
+      <div class="development__block--green">
+        <div class="row center-md middle-md">
+          <div class="col-md-12">
+            <p class="development__block--green__text">Биосорбент «AQUALIN»</p>
+          </div>
+        </div>
+      </div>
+      <div class="development__description__first">
+        <div class="row center-md">
+          <div class="col-md-12">
+            <p class="development__description__text">Инновационный продукт, предназначенный для очистки водных поверхностей и сточных вод от<br> загрязнений нефтью и нефтепродуктами, не требующий специализированной утилизации.</p>
+            <table>
+              <tr>
+                <th>Основные научно-технические параметры продукта:</th>
+                <th> </th>
+                <th> </th>
+              </tr>
+              <tr>
+                <td class="white">Параметры</td>
+                <td class="white">Аналоги</td>
+                <td class="white">"AQUALIN"</td>
+              </tr>
+              <tr>
+                <td>Срок плавучести на поверхности, суток</td>
+                <td>20-30</td>
+                <td class="red">60</td>
+              </tr>
+              <tr>
+                <td>Сорбиционная нефтеемкость, кг (нефть/сорбент)</td>
+                <td>4-10/1</td>
+                <td class="red">8/1</td>
+              </tr>
+              <tr>
+                <td>Биодеструктивная активность в аэробных условиях<br> при температуре от +10 °С до +25 °С</td>
+                <td>20-70%</td>
+                <td class="red">75-80%</td>
+              </tr>
+              <tr>
+                <td>Биодеструктивная активность в аэробных условиях<br> при температуре от 0 °С до +10 °С</td>
+                <td>12-40%</td>
+                <td class="red">65-70%</td>
+              </tr>
+              <tr>
+                <td>Биоразлагаемость</td>
+                <td>-</td>
+                <td class="red">Да</td>
+              </tr>
+              <tr>
+                <td>Необходима специализированной утилизацией</td>
+                <td>требует</td>
+                <td class="red">не требует</td>
+              </tr>
+            </table>
+            <p class="development__description__heading2">Экономическая ценность «AQUALIN»</p>
+            <ul class="development__description__list">
+              <li class="development__description__list__item">- Повышает эффективность работы и срок службы используемых очистных сооружений</li>
+              <li class="development__description__list__item">- Обеспечивает положительный экономический эффект за счет отсутствия необходимости специализированной утилизации биосорбента после его применения.</li>
+            </ul>
+            <p class="development__description__heading2">Сфера применения</p>
+            <ul class="development__description__list">
+              <li class="development__description__list__item">- Очистка сточных вод в различных муниципальных и локальных очистных сооружениях – АЗС, автомойки, АТП, нефтебазы, аэропорты, сервисы для водного транспорта, ж/д депо, автотранспортные предприятия.</li>
+              <li class="development__description__list__item">- Очистка в энергетике, нефтяной и газовой промышленности, строительстве магистральных путепроводов</li>
+              <li class="development__description__list__item">- Устранение последствий аварийных загрязнений почвы и водных поверхностей нефтью и нефтепродуктами</li>
+              <li class="development__description__list__item">- Очистка на полигонах хранения отходов нефтепереработки.</li>
+            </ul><a onclick="modalPresentation1.open()" class="button button--presentation">Получить презентацию «AQUALIN»</a>
+          </div>
+        </div>
+      </div>
+      <div class="development__block--green">
+        <div class="row center-md middle-md">
+          <div class="col-md-12">
+            <p class="development__block--green__text">Биопрепарат “БИОТРИН”</p>
+          </div>
+        </div>
+      </div>
+      <div class="development__description__second">
+        <div class="row center-md">
+          <div class="col-md-12">
+            <p class="development__description__text">Биологический продукт, предназначенный для очистки водных и почвенных поверхностей от<br>загрязнений нефтью и нефтепродуктами. </p>
+            <table>
+              <tr>
+                <th>Основные научно-технические параметры продукта:</th>
+                <th> </th>
+                <th> </th>
+              </tr>
+              <tr>
+                <td class="white">Параметры</td>
+                <td class="white">Аналоги</td>
+                <td class="white">"Биотрин"</td>
+              </tr>
+              <tr>
+                <td>Биодеструктивная активность в аэробных условиях<br>при температуре от +10 °С до +35 °С(за 120 суток)</td>
+                <td>20-85%</td>
+                <td class="red">75-90%</td>
+              </tr>
+              <tr>
+                <td>Биодеструктивная активность в аэробных условиях<br>при температуре от +2 °С до +10 °С</td>
+                <td>20-60%</td>
+                <td class="red">50-60%</td>
+              </tr>
+            </table>
+            <p class="development__description__text padding">После снижения концентрации углеводородов в почве, воде, донных отложениях, численность вносимых с препаратом микроорганизмов падает до фоновых значений в связи с недостатком доступного углерода.</p>
+            <p class="development__description__text padding">"БИОТРИН" не токсичен для человека, теплокровных животных, растений в нормах, рекомендуемых методическими указаниями по применению.</p>
+            <p class="development__description__heading2">Сфера применения</p>
+            <p class="development__description__text padding">Предназначен для очистки нефтезагрязненных субстратов (почвы, воды и пр.), ликвидации последствий аварийных ситуаций на нефтепромыслах, трассах нефтепроводов и пунктах складирования нефти и нефтепродуктов.</p>
+            <p class="development__description__text padding">Рекомендован к применению в процессе проведения экологических работ для зоны северной тайги.</p><a onclick="modalPresentation2.open()" class="button button--presentation">Получить презентацию «БИОТРИН»</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="document" class="document">
+      <div class="row center-md">
+        <div class="col-md-12">
+          <h2 class="document__heading animated fadeInDown wow">Документация</h2>
+          <div class="swiper-container swiper-container__document">
+            <div class="swiper-wrapper gallery">
+              <div class="swiper-slide">
+                <div class="slider__block--image"><a href="img/document-1.png"><img src="img/document-1.png" alt="" class="slider__img"></a></div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slider__block--image"> <a href="img/document-2.png"><img src="img/document-2.png" alt="" class="slider__img"></a></div>
+              </div>
+              <div class="swiper-slide"> 
+                <div class="slider__block--image"><a href="img/document-3.png"><img src="img/document-3.png" alt="" class="slider__img"></a></div>
+              </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact">
+      <div class="row">
+        <div class="col-md-12 center-md">
+          <h2 class="contact__heading animated fadeInDown wow">Контакты</h2>
+        </div>
+        <div class="col-md-5 middle-md center-md">
+          <p class="contact__phone">т. +7 (8212) 27-01-18</p>
+          <p class="contact__phone padding">+7 (912) 867-01-18</p>
+          <p class="contact__email">e-mail:  info@bioecobalance.ru</p>
+          <p class="contact__address">адрес: Республика Коми, г. Сыктывкар<br>ул. Журавского, д.12</p><a onclick="modalBackCall.open()" class="button button__footer">Заказать звонок</a>
+        </div>
+        <div class="col-md-7">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1895.2127239005158!2d50.811761315740846!3d61.63984998252604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43f7d49816180dcf%3A0xbad26be168c34aec!2z0YPQuy4g0JbRg9GA0LDQstGB0LrQvtCz0L4sIDEyLCDQodGL0LrRgtGL0LLQutCw0YAsINCg0LXRgdC_LiDQmtC-0LzQuCwg0KDQvtGB0YHQuNGPLCAxNjcwMDI!5e0!3m2!1sru!2sua!4v1478610543553" width="550" height="415" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="block-linear"></div>
+    </section>
+    <footer>
+      <div class="row middle-md">
+        <div class="col-md-6">
+          <p>2016, ООО «БИОЭКОБАЛАНС»<br>Все права защищены. Использование материалов сайта разрешено только с согласия правообладателей.</p>
+          <p>167023, Республика Коми, г. Сыктывкар, ул. Журавского, 12<br>ОГРН 1151101004174  ИНН 1101052409  КПП110 101 001<br>Р/сч  № 40702810700030704298 Северо-Западный филиал ПАО «МТС-Банк» г. Санкт-Петербург</p>
+        </div>
+        <div class="col-md-6 end-md middle-md">
+          <div class="logo"><img src="img/logo-footer.png" alt=""></div><a href="http://lidkom.ru/" target="_blank"><img src="img/lidkom.png" alt=""></a>
+        </div>
+      </div>
+    </footer>
+    <div style="display: none" class="back-call">
+      <p class="back-call__heading">Обратный <span>звонок</span></p>
+      <p class="back-call__text">Оставьте заявку и мы проконсультируем Вас по всем интересующим вопросам<br>c 12:00 до 16:00 по московскому времени</p>
+      <form class="form back-call__form">
+        <input type="text" placeholder="Ваше имя" name="name" required class="back-call__form__name">
+        <input type="phone" placeholder="Ваш телефон" name="phone" required class="back-call__form__phone">
+        <input type="submit" value="Отправить" class="button button--form">
+      </form>
+      <p class="back-call__text">Отправляя заявку я соглашаюсь с передачей и обработкой данных</p>
+    </div>
+    <div style="display: none" class="modal-consultation">
+      <p class="back-call__heading">Заявка на <span>консультацию</span></p>
+      <p class="back-call__text">Оставьте заявку и мы проконсультируем Вас по всем интересующим вопросам<br>c 12:00 до 16:00 по московскому времени</p>
+      <form class="form back-call__form">
+        <input type="text" placeholder="Ваше имя" name="name" required class="back-call__form__name">
+        <input type="phone" placeholder="Ваш телефон" name="phone" required class="back-call__form__phone">
+        <input type="submit" value="Отправить" class="button button--form">
+      </form>
+      <p class="back-call__text">Отправляя заявку я соглашаюсь с передачей и обработкой данных</p>
+    </div>
+    <div style="display: none" class="modal-presentation-1">
+      <p class="back-call__heading">Оставьте <span>заявку</span></p>
+      <p class="back-call__text">В течение 10 минут вы получите презентацию «AQUALIN» на электронную почту</p>
+      <form class="form back-call__form">
+        <input type="email" placeholder="Ваше почта" name="email" required class="back-call__form__email">
+        <input type="submit" value="Отправить" class="button button--form">
+      </form>
+      <p class="back-call__text">Отправляя заявку я соглашаюсь с передачей и обработкой данных</p>
+    </div>
+    <div style="display: none" class="modal-presentation-2">
+      <p class="back-call__heading">Оставьте <span>заявку</span></p>
+      <p class="back-call__text">В течение 10 минут вы получите презентацию «БИОТРИН» на электронную почту</p>
+      <form class="form back-call__form">
+        <input type="email" placeholder="Ваше почта" name="email" required class="back-call__form__email">
+        <input type="submit" value="Отправить" class="button button--form">
+      </form>
+      <p class="back-call__text">Отправляя заявку я соглашаюсь с передачей и обработкой данных</p>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.0/js/swiper.min.js"></script>
+    <script src="js/baguetteBox.min.js" async></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/tingle.js"></script>
+    <script src="js/smooth-scroll.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
